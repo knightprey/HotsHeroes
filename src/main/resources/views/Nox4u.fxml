@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="be.technifutur.mobile.controller.Nox4uController">
+
+    <Label text="Nox4u" />
+    <ImageView fitHeight="400.0" fitWidth="600.0">
+        <image>
+            <Image url="@../images/backgroundFond.jpg" />
+        </image>
+    </ImageView>
+    <ButtonBar layoutX="41.0" layoutY="180.0" prefHeight="17.0" prefWidth="16.0" />
+    <ButtonBar layoutX="51.0" layoutY="190.0" prefHeight="17.0" prefWidth="16.0" />
+    <ButtonBar layoutX="165.0" layoutY="180.0" prefHeight="17.0" prefWidth="16.0" />
+    <ImageView layoutX="20.0" layoutY="109.0">
+        <image>
+            <Image url="@../images/hero-portrait-fenix.jpg" />
+        </image>
+    </ImageView>
+    <ImageView layoutX="173.0" layoutY="109.0">
+        <image>
+            <Image url="@../images/hero-portrait-genji.jpg" />
+        </image>
+    </ImageView>
+    <ImageView layoutX="322.0" layoutY="109.0">
+        <image>
+            <Image url="@../images/hero-portrait-maiev.jpg" />
+        </image>
+    </ImageView>
+    <ImageView layoutX="458.0" layoutY="109.0">
+        <image>
+            <Image url="@../images/hero-portrait-thrall.jpg" />
+        </image>
+    </ImageView>
+    <Label layoutX="67.0" layoutY="249.0" text="Fenix" />
+    <Label layoutX="220.0" layoutY="249.0" text="Hanzo" />
+    <Label layoutX="369.0" layoutY="249.0" text="Maiev" />
+    <Label layoutX="505.0" layoutY="249.0" text="Thrall" />
+   <Button fx:id="FenixButton" layoutX="20.0" layoutY="109.0" mnemonicParsing="false" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: transparent;" text="Fenix" textFill="TRANSPARENT" />
+   <Button fx:id="GenjiButton" layoutX="173.0" layoutY="109.0" mnemonicParsing="false" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: transparent;" text="Hanzo" textFill="TRANSPARENT" />
+   <Button fx:id="MaievButton" layoutX="322.0" layoutY="109.0" mnemonicParsing="false" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: transparent;" text="Maiev" textFill="TRANSPARENT" />
+   <Button fx:id="ThrallButton" layoutX="458.0" layoutY="109.0" mnemonicParsing="false" prefHeight="128.0" prefWidth="128.0" style="-fx-background-color: transparent;" text="Thrall" textFill="TRANSPARENT" />
+
+</AnchorPane>
